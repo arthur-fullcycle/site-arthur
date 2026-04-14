@@ -1,0 +1,145 @@
+#sobre {
+    text-align: center;
+}
+
+
+.cursos img{
+    display: block;
+}
+
+.cursos {
+  text-align: justify;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+  background: transparent;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  padding: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    
+  background-image: url("iiiio.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+header {
+    background: white;
+    color: green;
+    padding: 20px;
+   
+}
+
+
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color:green;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color:transparent;
+    border-radius: 13px;
+}
+
+#sobre p {
+    text-align: center;
+    line-height: 1.6;
+}
+
+
+#cursos ul {
+    padding-left: 20px;
+}
+
+#cursos li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+
+#historia {
+    line-height: 1.6;
+    background-color: #f4f6f8;
+    border-radius: 10px;
+    text-align: justify;
+    color: #050505;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contato label {
+    margin-top: 10px;
+}
+
+#contato input,
+#contato textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #002f6c;
+    color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #001f4d;
+}
+
+
+footer {
+    text-align: justify;
+    padding: 15px;
+    background-color: #050505;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    gap: 100px;
+}
+
+.card {
+    background: rgba(108, 207, 141, 0.7);
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    padding: 15px;
+}
